@@ -39,7 +39,7 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render("help", {
-      helpText: "With a valid search term as location, you can get the weather condition for the such location",
+      helpText: "With a valid city or state search term as location, you can get the weather condition for the such location",
       title: "Help",
       name: "Yhemmy",
     });
